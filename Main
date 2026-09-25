@@ -1,0 +1,9 @@
+package Ex05;
+public class Main {
+    public static void main(String[] args) {
+        UIController controller = new UIController();
+        System.out.println("|KHỞI TẠO CẤU HÌNH HỆ THỐNG UI|");
+        controller.initSystem("config/app.ini");
+        controller.initSystem("config/invalid_app.ini");
+    }
+}
